@@ -1,6 +1,7 @@
-# #!/usr/bin/env python3
+#!/usr/bin/env python3
 import os
 import sys
+import csv
 from time import sleep
 import requests
 
@@ -40,81 +41,85 @@ def write_content(content, name='error.html'):
         f.write(str(content))
 
 
-def bad_code():
-    '''tried spoofing user agent but had bad url for procedure query. Left off the s on on details
-
-    hopefully dont need to use this section
-    TODO
-    delete me
+def get_facility_detail(data):
     '''
-    # headers = {
-    #     'Host': 'www.healthcarebluebook.com',
-    #     'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:70.0) Gecko/20100101 Firefox/70.0',
-    #     'Accept': 'application/json, text/plain, */*',
-    #     'Accept-Language': 'en-US,en;q=0.5',
-    #     'Accept-Encoding': 'gzip, deflate, br',
-    #     'DNT': '1',
-    #     'Connection': 'keep-alive',
-    # }
-
-    # session.headers = headers
-    ref_url = "https://www.healthcarebluebook.com/ui/proceduredetails/{}".format(ctf_id)
-    post_data = {
-        "Level":6,
-        "pageName":"searchresults",
-        "url":"https://www.healthcarebluebook.com/ui/searchresults?CatId={}&Tab=ShopForCare".format(cat_id),
-        "activityId":13,
-        "activityDetails": {"ReferringUrl": ref_url} 
-    }
-
-    #this part now working
-    response = session.get('&'.join(("{}Log?request.level=5".format(API_URL),
-                                        "request.pageName=searchresults",
-                                        "request.url=https://www.healthcarebluebook.com/ui/searchresults?CatId={}".format(cat_id),
-                                        "Tab=ShopForCare",
-                                        "request.zipCode={}".format(zip_code),
-                                        "request.isMobileBrowser=false",
-                                        "request.userAgent=Mozilla/5.0%20(X11;%20Linux%20x86_64;%20rv:70.0)%20Gecko/20100101%20Firefox/70.0",
-                                        "request.customerCode=hcbb_provmarket",
-                                        "request.language=en"
-                                        )))
-
-    #response = session.post("{}PostLog".format(API_URL), data=post_data)
-    #session.headers['Referer'] = "https://www.healthcarebluebook.com/ui/proceduredetails/{}".format(ctf_id)
-    #still failing with 404 error but prints out huge page                                        
-
-    return
-
-
-def show_procedures(data):
-    '''not sure what all to print out
-    looks like a lot of stuff in html
-
-    TODO 
-    check out  details.get('ModuleConfigurations')
-
-    data requested is actually in FacilityInformation and then under Facilities
-    not sure why facility not populating
+    gather facility
+    name, address, and phone number 
+    with a green cost ranking 
     '''
     if data.get('HasErrors'):
         return
 
     detail = data.get('ProcedureDetails')
-    pricing = detail.get('PricingInformations')
-    content_list = detail.get('ContentList')
-    module =  detail.get('ModuleConfigurations')
-    facility = detail.get('FacilityInformation')
+    # pricing = detail.get('PricingInformations')
+    # content_list = detail.get('ContentList')
+    # module =  detail.get('ModuleConfigurations')
+    facility_info = detail.get('FacilityInformation')
+    facility = facility_info.get('Facilities')
 
-    print(detail['ProcedureName'])
-    print('\n'.join(("{}: {}".format(key, item) for key, item in pricing[0].items())))
+    #print(detail['ProcedureName'])
+    #print('\n'.join(("{}: {}".format(key, item) for key, item in pricing[0].items())))
 
-    facility_detail = facility.get('Facilities')
-    if not facility_detail:
-        print("No facilities list")
+    if not facility:
+        print("{} - No facilities list".format(detail.get('ProcedureName')))
+        return 
+    
+    good_deals = []
+    for f in facility:
+        if f.get('CostIndicator') == 1:
+            address = '{}{}\n{}, {} {}'.format(
+                f.get('Street1'), 
+                '\n{}'.format(f.get('Street2')) if len(f.get('Street2')) > 0 else '',
+                f.get('City'),
+                f.get('State'),
+                f.get('ZipCode'),
+                )
+            
+            good_deals.append([detail.get('ProcedureName'),
+                               f.get('DisplayName'),
+                               address,
+                               f.get('Phone'), 
+                               ])
+
+    return good_deals
+
+
+def connect_to_api(session, zip_code, category):
+    '''Had some trouble with session cookies gettings set to zip code
+    So manually removed and set that entry
+    '''
+    response = session.get(GET_SEARCH_RESULTS)
+    if response.status_code != 200:
+        print("Could not connect to api: \n{}".format(response.content))
+        sys.exit(1)
+
+    response = session.get(APP_INIT)
+    response = session.get("{}/CheckIdentCookie".format(API_URL))
+
+    url = '{}?CategoryId={}&SearchType={}'.format(GET_SEARCH_RESULTS, category, 1)
+
+    #cookie not updating
+    del session.cookies['hcbb']
+    session.cookies['hcbb'] = "cust=hcbb_prod&language=English&zip={}".format(zip_code)
+
+    response = session.get(url)
+    if response.status_code != 200:
+        print("Couldn't connect to get search results: \n{}".format(response.content))    
+        sys.exit(1)
+
+    return response
+
+
+def export_deals(detail, name='tmp.csv'):
+    if len(detail) < 1:
+        print('Nothing to write - {}'.format(name))
         return
-    ###maybe write here to csv/json
+    
+    with open(name, 'w', newline='') as csv_file:
+        writer = csv.writer(csv_file)
+        writer.writerows(detail)
 
-
+    print("Wrote {}".format(name))
     return
 
 
@@ -126,29 +131,17 @@ if __name__ == '__main__':
 
     mri_category = 39
     '''
-    session = requests.session()
-    response = session.get(GET_SEARCH_RESULTS)
-    if response.status_code != 200:
-        print("Could not connect to api: \n{}".format(response.content))
-        sys.exit(1)
-
-    response = session.get(APP_INIT)
-    response = session.get("{}/CheckIdentCookie".format(API_URL))
-
     mri_category = 39
     zip_code = 37211
-    url = '{}?CategoryId={}&SearchType={}'.format(GET_SEARCH_RESULTS, mri_category, 1)
-    response = session.get(url)
+    session = requests.session()
+    response = connect_to_api(session, zip_code=zip_code, category=mri_category)
 
-    if response != 200:
-        print("Couldn't connect to get search results: \n{}".format(response.content))    
-        sys.exit(1)
-    
     data = response.json()
     results = data.get('SearchResults')
     search_info = results.get('SearchInformation')
     procedures = results.get('Procedures')
 
+    good_deals = [['Procedure', 'Name', 'Address', 'Phone Number']]
     for p in procedures:
         ctf_id = p.get('AnalyticsCftId')
         if not ctf_id:
@@ -156,7 +149,10 @@ if __name__ == '__main__':
 
         response = get_procedure_detail(session, ctf_id=ctf_id)
         if response.status_code == 200:
-            show_procedures(response.json())
+             tmp = get_facility_detail(response.json())
+             if tmp:
+                 good_deals += tmp
 
-        #sleep(1) 
-        #doesnt go super fast with print statements
+        sleep(30) 
+        
+    export_deals(good_deals, 'bluebook_scrape_data.csv')
