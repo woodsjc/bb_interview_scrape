@@ -12,24 +12,65 @@ GET_SEARCH_RESULTS = '{}GetSearchResults'.format(API_URL)
 GET_PROCEDURE_DETAIL = '{}GetProcedureDetails'.format(API_URL)
 
 
+def patch_cookie(session, zip_code):
+    '''The hcbb cookie keeps breaking on multiple requests
+    '''
+    del session.cookies['hcbb']
+    session.cookies['hcbb'] = "cust=hcbb_prod&language=English&zip={}".format(zip_code)
+    return
+
+
 def search_results(session, category=213, search_type=1):
     url = '{}?CategoryId={}&SearchType={}'.format(GET_SEARCH_RESULTS,
                                                   category, 
                                                   search_type)
+    sleep(1)
+    response = session.get(url)
+    
+    if response.status_code != 200:
+        print("Couldn't connect to get search results: \n{}".format(response.content))    
+        sys.exit(1)
+
+    return response
+
+
+def get_procedure_detail(session, language='en', ctf_id=50, zip_code=37211):
+    '''Have to init app
+    then set zip
+    then set marketplace
+    and have list of procedures to run this
+    '''
+    url = '{}?Language={}&CftId={}&DirectSearch=true'.format(
+        GET_PROCEDURE_DETAIL,
+        language,
+        ctf_id)
+    #session.headers['Referer'] = "https://www.healthcarebluebook.com/ui/proceduredetails/{}".format(ctf_id)
+    #patch_cookie(session, zip_code)
     response = session.get(url)
 
     return response
 
 
-def get_procedure_detail(session, language='en', ctf_id=50):
-    '''Might be able to skip get search results and just go by ctf_id
-
-    Also could combine different get functions with error checking
-    '''
-    url = '{}?Language={}&CftId={}'.format(GET_PROCEDURE_DETAIL,
-                                           language,
-                                           ctf_id)
+def set_zip(session, zip_code):
+    url = '{}GetZipLocation?request.ZipCode={}'.format(API_URL, zip_code)
+    sleep(1)
     response = session.get(url)
+
+    if response.status_code != 200:
+        print("Error initiating zip code \n{}".format(response.content))
+        sys.exit(1)
+
+    return response
+
+
+def set_marketplace(session):
+    url = '{}SetMarketplaceMedicare?Medicare=false'.format(API_URL)
+    sleep(1)
+    response = session.get(url)
+
+    if response.status_code != 200:
+        print("Error setting marketplace \n{}".format(response.content))
+        sys.exit(1)
 
     return response
 
@@ -55,6 +96,10 @@ def get_facility_detail(data):
     # content_list = detail.get('ContentList')
     # module =  detail.get('ModuleConfigurations')
     facility_info = detail.get('FacilityInformation')
+    if not facility_info:
+        print("{} - No facilitiy Information".format(detail.get('ProcedureName')))
+        return 
+
     facility = facility_info.get('Facilities')
 
     #print(detail['ProcedureName'])
@@ -87,25 +132,66 @@ def get_facility_detail(data):
 def connect_to_api(session, zip_code, category):
     '''Had some trouble with session cookies gettings set to zip code
     So manually removed and set that entry
+
+    left out initial zip code setting when setting up app in set_zip function
+    and caused lots of downstream errors
     '''
-    response = session.get(GET_SEARCH_RESULTS)
-    if response.status_code != 200:
-        print("Could not connect to api: \n{}".format(response.content))
-        sys.exit(1)
-
+    session.headers['Host'] = 'www.healthcarebluebook.com'
+    session.headers['User-Agent'] = 'Mozilla/5.0 (X11; Linux x86_64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    session.headers['Accept'] = 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    session.headers['Accept-Language'] = 'en-US,en;q=0.5'
+    session.headers['Accept-Encoding'] =  'gzip, deflate, br'
+    session.headers['DNT'] = '1'
+    session.headers['Connection'] = 'keep-alive'
+    session.headers['Upgrade-Insecure-Requests'] = '1'
+    
     response = session.get(APP_INIT)
+    if response.status_code != 200:
+        print("Error initiating app \n{}".format(response.content))
+
     response = session.get("{}/CheckIdentCookie".format(API_URL))
+    if response.status_code != 200:
+        print("Error initiating check indent cookie \n{}".format(response.content))
+    
+    response = set_zip(session, zip_code)
+    response = set_marketplace(session)
+    response = search_results(session, category=category)
+    
+    return response
 
-    url = '{}?CategoryId={}&SearchType={}'.format(GET_SEARCH_RESULTS, category, 1)
 
-    #cookie not updating
-    del session.cookies['hcbb']
-    session.cookies['hcbb'] = "cust=hcbb_prod&language=English&zip={}".format(zip_code)
+def make_log_request(session, zip_code, category):
+    '''Not sure why facility info not always returned
+    trying to do this log posting in hope it will generate
+
+    dont think this part required
+    '''
+    url = '&'.join(("{}Log?request.level=5".format(API_URL),
+                    "request.pageName=searchresults",
+                    "request.url=https://www.healthcarebluebook.com/ui/searchresults?CatId={}".format(category),
+                    "Tab=ShopForCare",
+                    "request.zipCode={}".format(zip_code),
+                    "request.isMobileBrowser=false",
+                    "request.userAgent={}".format(session.headers['User-Agent']),
+                    "request.customerCode=hcbb_provmarket",
+                    "request.language=en"
+                    ))
 
     response = session.get(url)
+
     if response.status_code != 200:
-        print("Couldn't connect to get search results: \n{}".format(response.content))    
-        sys.exit(1)
+        return response
+
+    url = "{}PostLog".format(API_URL)
+    ref_url = "https://www.healthcarebluebook.com/ui/consumerfront"
+    post_data = {
+        "Level":6,
+        "pageName":"searchresults",
+        "url":"https://www.healthcarebluebook.com/ui/searchresults?CatId={}&Tab=ShopForCare".format(category),
+        "activityId":13,
+        "activityDetails": '{"ReferringUrl":"' + ref_url + '"}',
+    }
+    response = session.post(url, data=post_data)
 
     return response
 
@@ -138,21 +224,30 @@ if __name__ == '__main__':
 
     data = response.json()
     results = data.get('SearchResults')
+
+    if not results:
+        print("Unable to pull data from api \n{}".format(data))
+        sys.exit(1)
+    elif results.get('DisplayCaptcha'):
+        print("Site is serving captcha \n{}".format(results))
+        sys.exit(1)
+
     search_info = results.get('SearchInformation')
     procedures = results.get('Procedures')
 
+    sleep(1)
     good_deals = [['Procedure', 'Name', 'Address', 'Phone Number']]
     for p in procedures:
         ctf_id = p.get('AnalyticsCftId')
         if not ctf_id:
             continue
 
-        response = get_procedure_detail(session, ctf_id=ctf_id)
+        response = get_procedure_detail(session, ctf_id=ctf_id, zip_code=37211)
         if response.status_code == 200:
              tmp = get_facility_detail(response.json())
              if tmp:
                  good_deals += tmp
 
-        sleep(30) 
+        sleep(45) 
         
     export_deals(good_deals, 'bluebook_scrape_data.csv')

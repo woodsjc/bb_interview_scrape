@@ -2,129 +2,664 @@ Procedure,Name,Address,Phone Number
 Abdominal MRI (no contrast),Premier Diagnostic Imaging - Cookeville,"315 N Washington Ave
 Suite 103
 Cookeville, TN 38501",931-528-1800
+Abdominal MRI (no contrast),BioImaging of Huntsville,"528 Madison St SE
+Huntsville, AL 35801",256-533-3200
+Abdominal MRI (no contrast),Outpatient Diagnostic Center of Nashville,"337 22nd Ave N
+Nashville, TN 37203",615-327-1500
+Abdominal MRI (no contrast),The Imaging Center of Murfreesboro,"1001 N Highland Ave
+Murfreesboro, TN 37130",615-890-8999
+Abdominal MRI (no contrast),Heritage Medical Associates - Baptist Hospital,"222 22nd Ave N
+Nashville, TN 37203",615-284-2222
+Abdominal MRI (no contrast),Premier Medical Group Imaging Center,"490 Dunlop Ln
+Clarksville, TN 37040",931-245-8622
+Abdominal MRI (no contrast),Imaging Center of the Howell Allen Clinic ,"2214 Elliston Place
+Suite 200
+Nashville, TN 37203",615-327-9543
+Abdominal MRI (no contrast),Premier Radiology - Brentwood,"789 Old Hickory Blvd
+Brentwood, TN 37027",615-832-9551
+Abdominal MRI (no contrast),Premier Radiology - Nashville,"1800 Charlotte Ave
+Nashville, TN 37203",615-329-4840
+Abdominal MRI (no contrast),Premier Radiology - Belle Meade,"28 White Bridge Rd
+Suite 111
+Nashville, TN 37205",615-356-3999
+Abdominal MRI (no contrast),Premier Radiology - Cool Springs,"3310 Aspen Grove Dr
+Suite 101
+Franklin, TN 37067",615-771-0171
+Abdominal MRI (no contrast),Premier Radiology - Hermitage,"5045 Old Hickory Blvd
+Suite 100
+Hermitage, TN 37076",615-884-7674
+Abdominal MRI (no contrast),Premier Radiology - Smyrna,"741 President Place
+Suite 100
+Smyrna, TN 37167",615-220-0674
+Abdominal MRI (no contrast),Premier Radiology - Mt Juliet,"5002 Crossings Cir
+Suite 140
+Mount Juliet, TN 37122",615-773-7237
+Abdominal MRI (no contrast),Premier Radiology - Murfreesboro,"1840 Medical Center Pkwy
+Suite 101
+Murfreesboro, TN 37129",615-896-1234
+Abdominal MRI (no contrast),Premier Radiology - Clarksville,"980 Professional Park Dr
+Clarksville, TN 37040",931-436-9307
+Abdominal MRI (no contrast),Murfreesboro Medical Clinic & Surgicenter,"1272 Garrison Dr
+Murfreesboro, TN 37129",615-867-8110
+Abdominal MRI (no contrast),Graves Gilbert Clinic,"201 Park St
+Bowling Green, KY 42101",270-781-5111
+Abdominal MRI (no contrast),Advanced Diagnostic Imaging,"3024 Business Park Cir
+Goodlettsville, TN 37072",615-239-2061
 Abdominal MRI (with and without contrast),Premier Diagnostic Imaging - Cookeville,"315 N Washington Ave
 Suite 103
 Cookeville, TN 38501",931-528-1800
+Abdominal MRI (with and without contrast),BioImaging of Huntsville,"528 Madison St SE
+Huntsville, AL 35801",256-533-3200
+Abdominal MRI (with and without contrast),Outpatient Diagnostic Center of Nashville,"337 22nd Ave N
+Nashville, TN 37203",615-327-1500
+Abdominal MRI (with and without contrast),The Imaging Center of Murfreesboro,"1001 N Highland Ave
+Murfreesboro, TN 37130",615-890-8999
+Abdominal MRI (with and without contrast),Heritage Medical Associates - Baptist Hospital,"222 22nd Ave N
+Nashville, TN 37203",615-284-2222
+Abdominal MRI (with and without contrast),Premier Medical Group Imaging Center,"490 Dunlop Ln
+Clarksville, TN 37040",931-245-8622
+Abdominal MRI (with and without contrast),Imaging Center of the Howell Allen Clinic ,"2214 Elliston Place
+Suite 200
+Nashville, TN 37203",615-327-9543
+Abdominal MRI (with and without contrast),Premier Radiology - Brentwood,"789 Old Hickory Blvd
+Brentwood, TN 37027",615-832-9551
+Abdominal MRI (with and without contrast),Premier Radiology - Nashville,"1800 Charlotte Ave
+Nashville, TN 37203",615-329-4840
+Abdominal MRI (with and without contrast),Premier Radiology - Belle Meade,"28 White Bridge Rd
+Suite 111
+Nashville, TN 37205",615-356-3999
+Abdominal MRI (with and without contrast),Premier Radiology - Cool Springs,"3310 Aspen Grove Dr
+Suite 101
+Franklin, TN 37067",615-771-0171
+Abdominal MRI (with and without contrast),Premier Radiology - Hermitage,"5045 Old Hickory Blvd
+Suite 100
+Hermitage, TN 37076",615-884-7674
+Abdominal MRI (with and without contrast),Premier Radiology - Smyrna,"741 President Place
+Suite 100
+Smyrna, TN 37167",615-220-0674
+Abdominal MRI (with and without contrast),Premier Radiology - Mt Juliet,"5002 Crossings Cir
+Suite 140
+Mount Juliet, TN 37122",615-773-7237
+Abdominal MRI (with and without contrast),Premier Radiology - Murfreesboro,"1840 Medical Center Pkwy
+Suite 101
+Murfreesboro, TN 37129",615-896-1234
+Abdominal MRI (with and without contrast),Premier Radiology - Clarksville,"980 Professional Park Dr
+Clarksville, TN 37040",931-436-9307
+Abdominal MRI (with and without contrast),Murfreesboro Medical Clinic & Surgicenter,"1272 Garrison Dr
+Murfreesboro, TN 37129",615-867-8110
+Abdominal MRI (with and without contrast),Graves Gilbert Clinic,"201 Park St
+Bowling Green, KY 42101",270-781-5111
+Abdominal MRI (with and without contrast),Advanced Diagnostic Imaging,"3024 Business Park Cir
+Goodlettsville, TN 37072",615-239-2061
 Abdominal MRI (with contrast),Premier Diagnostic Imaging - Cookeville,"315 N Washington Ave
 Suite 103
 Cookeville, TN 38501",931-528-1800
+Abdominal MRI (with contrast),BioImaging of Huntsville,"528 Madison St SE
+Huntsville, AL 35801",256-533-3200
+Abdominal MRI (with contrast),Outpatient Diagnostic Center of Nashville,"337 22nd Ave N
+Nashville, TN 37203",615-327-1500
+Abdominal MRI (with contrast),The Imaging Center of Murfreesboro,"1001 N Highland Ave
+Murfreesboro, TN 37130",615-890-8999
+Abdominal MRI (with contrast),Heritage Medical Associates - Baptist Hospital,"222 22nd Ave N
+Nashville, TN 37203",615-284-2222
+Abdominal MRI (with contrast),Premier Medical Group Imaging Center,"490 Dunlop Ln
+Clarksville, TN 37040",931-245-8622
+Abdominal MRI (with contrast),Imaging Center of the Howell Allen Clinic ,"2214 Elliston Place
+Suite 200
+Nashville, TN 37203",615-327-9543
+Abdominal MRI (with contrast),Premier Radiology - Brentwood,"789 Old Hickory Blvd
+Brentwood, TN 37027",615-832-9551
+Abdominal MRI (with contrast),Premier Radiology - Nashville,"1800 Charlotte Ave
+Nashville, TN 37203",615-329-4840
+Abdominal MRI (with contrast),Premier Radiology - Belle Meade,"28 White Bridge Rd
+Suite 111
+Nashville, TN 37205",615-356-3999
+Abdominal MRI (with contrast),Premier Radiology - Cool Springs,"3310 Aspen Grove Dr
+Suite 101
+Franklin, TN 37067",615-771-0171
+Abdominal MRI (with contrast),Premier Radiology - Hermitage,"5045 Old Hickory Blvd
+Suite 100
+Hermitage, TN 37076",615-884-7674
+Abdominal MRI (with contrast),Premier Radiology - Smyrna,"741 President Place
+Suite 100
+Smyrna, TN 37167",615-220-0674
+Abdominal MRI (with contrast),Premier Radiology - Mt Juliet,"5002 Crossings Cir
+Suite 140
+Mount Juliet, TN 37122",615-773-7237
+Abdominal MRI (with contrast),Premier Radiology - Murfreesboro,"1840 Medical Center Pkwy
+Suite 101
+Murfreesboro, TN 37129",615-896-1234
+Abdominal MRI (with contrast),Premier Radiology - Clarksville,"980 Professional Park Dr
+Clarksville, TN 37040",931-436-9307
+Abdominal MRI (with contrast),Murfreesboro Medical Clinic & Surgicenter,"1272 Garrison Dr
+Murfreesboro, TN 37129",615-867-8110
+Abdominal MRI (with contrast),Graves Gilbert Clinic,"201 Park St
+Bowling Green, KY 42101",270-781-5111
+Abdominal MRI (with contrast),Advanced Diagnostic Imaging,"3024 Business Park Cir
+Goodlettsville, TN 37072",615-239-2061
+Ankle MRI (no contrast),Advanced Diagnostic Imaging,"3024 Business Park Cir
+Goodlettsville, TN 37072",615-239-2061
+Ankle MRI (no contrast),Premier Medical Group Imaging Center,"490 Dunlop Ln
+Clarksville, TN 37040",931-245-8622
+Ankle MRI (no contrast),Orthopedics & Sports Medicine Clinic,"144 Hospital Rd
+Winchester, TN 37398",931-967-5860
+Ankle MRI (no contrast),The Imaging Center of Murfreesboro,"1001 N Highland Ave
+Murfreesboro, TN 37130",615-890-8999
+Ankle MRI (no contrast),Outpatient Diagnostic Center of Nashville,"337 22nd Ave N
+Nashville, TN 37203",615-327-1500
+Ankle MRI (no contrast),Tennessee Sports Medicine,"5003 Crossing Circle
+Suite 103
+Mount Juliet, TN 37122",615-758-1010
+Ankle MRI (no contrast),Tennessee Sports Medicine,"1427A W Baddour Pkwy
+Lebanon, TN 37087",615-443-7700
+Ankle MRI (no contrast),BioImaging of Huntsville,"528 Madison St SE
+Huntsville, AL 35801",256-533-3200
+Ankle MRI (no contrast),Tennessee Orthopedics,"1616 W Main St
+Suite 100
+Lebanon, TN 37087",615-453-1273
+Ankle MRI (no contrast),Tennessee Orthopaedic Alliance - Franklin,"4323 Carothers Pkwy
+Suite 600
+Franklin, TN 37067",615-454-9149
+Ankle MRI (no contrast),Western Kentucky Orthopaedic and Neurosurgical Associates,"165 Natchez Trace Ave
+Suite 200
+Bowling Green, KY 42103",270-782-7800
+Ankle MRI (no contrast),Heritage Medical Associates - Baptist Hospital,"222 22nd Ave N
+Nashville, TN 37203",615-284-2222
+Ankle MRI (no contrast),Premier Orthopaedic Center,"394 Harding Place
+Suite 101
+Nashville, TN 37211",615-832-9966
+Ankle MRI (no contrast),Graves Gilbert Clinic,"201 Park St
+Bowling Green, KY 42101",270-781-5111
+Ankle MRI (no contrast),Imaging Center of the Howell Allen Clinic ,"2214 Elliston Place
+Suite 200
+Nashville, TN 37203",615-327-9543
 Ankle MRI (no contrast),Premier Diagnostic Imaging - Cookeville,"315 N Washington Ave
 Suite 103
 Cookeville, TN 38501",931-528-1800
+Ankle MRI (no contrast),Murfreesboro Medical Clinic & Surgicenter,"1272 Garrison Dr
+Murfreesboro, TN 37129",615-867-8110
+Ankle MRI (no contrast),Elite Sports Medicine and Orthopaedic Center - Nashville,"2021 Church St
+Suite 200
+Nashville, TN 37203",615-284-2000
+Ankle MRI (no contrast),Premier Radiology - Brentwood,"789 Old Hickory Blvd
+Brentwood, TN 37027",615-832-9551
+Ankle MRI (no contrast),Premier Radiology - Nashville,"1800 Charlotte Ave
+Nashville, TN 37203",615-329-4840
+Ankle MRI (no contrast),Premier Radiology - Belle Meade,"28 White Bridge Rd
+Suite 111
+Nashville, TN 37205",615-356-3999
+Ankle MRI (no contrast),Premier Radiology - Cool Springs,"3310 Aspen Grove Dr
+Suite 101
+Franklin, TN 37067",615-771-0171
+Ankle MRI (no contrast),Premier Radiology - Hermitage,"5045 Old Hickory Blvd
+Suite 100
+Hermitage, TN 37076",615-884-7674
+Ankle MRI (no contrast),Premier Radiology - Smyrna,"741 President Place
+Suite 100
+Smyrna, TN 37167",615-220-0674
+Ankle MRI (no contrast),Premier Radiology - Mt Juliet,"5002 Crossings Cir
+Suite 140
+Mount Juliet, TN 37122",615-773-7237
+Ankle MRI (no contrast),Premier Radiology - Murfreesboro,"1840 Medical Center Pkwy
+Suite 101
+Murfreesboro, TN 37129",615-896-1234
+Ankle MRI (no contrast),Premier Radiology - Clarksville,"980 Professional Park Dr
+Clarksville, TN 37040",931-436-9307
+Ankle MRI (no contrast),Pain Management Group - Cool Springs - Brentwood,"1642 Westgate Circle
+Suite 201
+Brentwood, TN 37027",615-941-8501
+Ankle MRI (no contrast),Tennessee Orthopaedic Alliance - St Thomas Midtown,"301 21st Ave N
+Nashville, TN 37203",615-329-6600
+Ankle MRI (no contrast),Tennessee Orthopaedic Alliance - Murfreesboro,"1800 Medical Center Pkwy
+Suite 200
+Murfreesboro, TN 37129",615-896-6800
+Ankle MRI (no contrast),Tennessee Orthopaedic Alliance - Clarksville,"141 Hillcrest Dr
+Clarksville, TN 37043",931-552-4340
+Ankle MRI (no contrast),Southern Sports Medicine Institute - Gallatin,"570 Harsville Pike
+Gallatin, TN 37066",615-452-3320
+Ankle MRI (with and without contrast),Advanced Diagnostic Imaging,"3024 Business Park Cir
+Goodlettsville, TN 37072",615-239-2061
+Ankle MRI (with and without contrast),Premier Medical Group Imaging Center,"490 Dunlop Ln
+Clarksville, TN 37040",931-245-8622
+Ankle MRI (with and without contrast),Orthopedics & Sports Medicine Clinic,"144 Hospital Rd
+Winchester, TN 37398",931-967-5860
+Ankle MRI (with and without contrast),The Imaging Center of Murfreesboro,"1001 N Highland Ave
+Murfreesboro, TN 37130",615-890-8999
+Ankle MRI (with and without contrast),Outpatient Diagnostic Center of Nashville,"337 22nd Ave N
+Nashville, TN 37203",615-327-1500
+Ankle MRI (with and without contrast),Tennessee Sports Medicine,"5003 Crossing Circle
+Suite 103
+Mount Juliet, TN 37122",615-758-1010
+Ankle MRI (with and without contrast),Tennessee Sports Medicine,"1427A W Baddour Pkwy
+Lebanon, TN 37087",615-443-7700
+Ankle MRI (with and without contrast),BioImaging of Huntsville,"528 Madison St SE
+Huntsville, AL 35801",256-533-3200
+Ankle MRI (with and without contrast),Tennessee Orthopedics,"1616 W Main St
+Suite 100
+Lebanon, TN 37087",615-453-1273
+Ankle MRI (with and without contrast),Tennessee Orthopaedic Alliance - Franklin,"4323 Carothers Pkwy
+Suite 600
+Franklin, TN 37067",615-454-9149
+Ankle MRI (with and without contrast),Western Kentucky Orthopaedic and Neurosurgical Associates,"165 Natchez Trace Ave
+Suite 200
+Bowling Green, KY 42103",270-782-7800
+Ankle MRI (with and without contrast),Heritage Medical Associates - Baptist Hospital,"222 22nd Ave N
+Nashville, TN 37203",615-284-2222
+Ankle MRI (with and without contrast),Premier Orthopaedic Center,"394 Harding Place
+Suite 101
+Nashville, TN 37211",615-832-9966
+Ankle MRI (with and without contrast),Graves Gilbert Clinic,"201 Park St
+Bowling Green, KY 42101",270-781-5111
+Ankle MRI (with and without contrast),Imaging Center of the Howell Allen Clinic ,"2214 Elliston Place
+Suite 200
+Nashville, TN 37203",615-327-9543
 Ankle MRI (with and without contrast),Premier Diagnostic Imaging - Cookeville,"315 N Washington Ave
 Suite 103
 Cookeville, TN 38501",931-528-1800
+Ankle MRI (with and without contrast),Murfreesboro Medical Clinic & Surgicenter,"1272 Garrison Dr
+Murfreesboro, TN 37129",615-867-8110
+Ankle MRI (with and without contrast),Elite Sports Medicine and Orthopaedic Center - Nashville,"2021 Church St
+Suite 200
+Nashville, TN 37203",615-284-2000
+Ankle MRI (with and without contrast),Premier Radiology - Brentwood,"789 Old Hickory Blvd
+Brentwood, TN 37027",615-832-9551
+Ankle MRI (with and without contrast),Premier Radiology - Nashville,"1800 Charlotte Ave
+Nashville, TN 37203",615-329-4840
+Ankle MRI (with and without contrast),Premier Radiology - Belle Meade,"28 White Bridge Rd
+Suite 111
+Nashville, TN 37205",615-356-3999
+Ankle MRI (with and without contrast),Premier Radiology - Cool Springs,"3310 Aspen Grove Dr
+Suite 101
+Franklin, TN 37067",615-771-0171
+Ankle MRI (with and without contrast),Premier Radiology - Hermitage,"5045 Old Hickory Blvd
+Suite 100
+Hermitage, TN 37076",615-884-7674
+Ankle MRI (with and without contrast),Premier Radiology - Smyrna,"741 President Place
+Suite 100
+Smyrna, TN 37167",615-220-0674
+Ankle MRI (with and without contrast),Premier Radiology - Mt Juliet,"5002 Crossings Cir
+Suite 140
+Mount Juliet, TN 37122",615-773-7237
+Ankle MRI (with and without contrast),Premier Radiology - Murfreesboro,"1840 Medical Center Pkwy
+Suite 101
+Murfreesboro, TN 37129",615-896-1234
+Ankle MRI (with and without contrast),Premier Radiology - Clarksville,"980 Professional Park Dr
+Clarksville, TN 37040",931-436-9307
+Ankle MRI (with and without contrast),Pain Management Group - Cool Springs - Brentwood,"1642 Westgate Circle
+Suite 201
+Brentwood, TN 37027",615-941-8501
+Ankle MRI (with and without contrast),Tennessee Orthopaedic Alliance - St Thomas Midtown,"301 21st Ave N
+Nashville, TN 37203",615-329-6600
+Ankle MRI (with and without contrast),Tennessee Orthopaedic Alliance - Murfreesboro,"1800 Medical Center Pkwy
+Suite 200
+Murfreesboro, TN 37129",615-896-6800
+Ankle MRI (with and without contrast),Tennessee Orthopaedic Alliance - Clarksville,"141 Hillcrest Dr
+Clarksville, TN 37043",931-552-4340
+Ankle MRI (with and without contrast),Southern Sports Medicine Institute - Gallatin,"570 Harsville Pike
+Gallatin, TN 37066",615-452-3320
+Ankle MRI (with contrast),Advanced Diagnostic Imaging,"3024 Business Park Cir
+Goodlettsville, TN 37072",615-239-2061
+Ankle MRI (with contrast),Premier Medical Group Imaging Center,"490 Dunlop Ln
+Clarksville, TN 37040",931-245-8622
+Ankle MRI (with contrast),Orthopedics & Sports Medicine Clinic,"144 Hospital Rd
+Winchester, TN 37398",931-967-5860
+Ankle MRI (with contrast),The Imaging Center of Murfreesboro,"1001 N Highland Ave
+Murfreesboro, TN 37130",615-890-8999
+Ankle MRI (with contrast),Outpatient Diagnostic Center of Nashville,"337 22nd Ave N
+Nashville, TN 37203",615-327-1500
+Ankle MRI (with contrast),Tennessee Sports Medicine,"5003 Crossing Circle
+Suite 103
+Mount Juliet, TN 37122",615-758-1010
+Ankle MRI (with contrast),Tennessee Sports Medicine,"1427A W Baddour Pkwy
+Lebanon, TN 37087",615-443-7700
+Ankle MRI (with contrast),BioImaging of Huntsville,"528 Madison St SE
+Huntsville, AL 35801",256-533-3200
+Ankle MRI (with contrast),Tennessee Orthopedics,"1616 W Main St
+Suite 100
+Lebanon, TN 37087",615-453-1273
+Ankle MRI (with contrast),Tennessee Orthopaedic Alliance - Franklin,"4323 Carothers Pkwy
+Suite 600
+Franklin, TN 37067",615-454-9149
+Ankle MRI (with contrast),Western Kentucky Orthopaedic and Neurosurgical Associates,"165 Natchez Trace Ave
+Suite 200
+Bowling Green, KY 42103",270-782-7800
+Ankle MRI (with contrast),Heritage Medical Associates - Baptist Hospital,"222 22nd Ave N
+Nashville, TN 37203",615-284-2222
+Ankle MRI (with contrast),Premier Orthopaedic Center,"394 Harding Place
+Suite 101
+Nashville, TN 37211",615-832-9966
+Ankle MRI (with contrast),Graves Gilbert Clinic,"201 Park St
+Bowling Green, KY 42101",270-781-5111
+Ankle MRI (with contrast),Imaging Center of the Howell Allen Clinic ,"2214 Elliston Place
+Suite 200
+Nashville, TN 37203",615-327-9543
 Ankle MRI (with contrast),Premier Diagnostic Imaging - Cookeville,"315 N Washington Ave
 Suite 103
 Cookeville, TN 38501",931-528-1800
+Ankle MRI (with contrast),Murfreesboro Medical Clinic & Surgicenter,"1272 Garrison Dr
+Murfreesboro, TN 37129",615-867-8110
+Ankle MRI (with contrast),Elite Sports Medicine and Orthopaedic Center - Nashville,"2021 Church St
+Suite 200
+Nashville, TN 37203",615-284-2000
+Ankle MRI (with contrast),Premier Radiology - Brentwood,"789 Old Hickory Blvd
+Brentwood, TN 37027",615-832-9551
+Ankle MRI (with contrast),Premier Radiology - Nashville,"1800 Charlotte Ave
+Nashville, TN 37203",615-329-4840
+Ankle MRI (with contrast),Premier Radiology - Belle Meade,"28 White Bridge Rd
+Suite 111
+Nashville, TN 37205",615-356-3999
+Ankle MRI (with contrast),Premier Radiology - Cool Springs,"3310 Aspen Grove Dr
+Suite 101
+Franklin, TN 37067",615-771-0171
+Ankle MRI (with contrast),Premier Radiology - Hermitage,"5045 Old Hickory Blvd
+Suite 100
+Hermitage, TN 37076",615-884-7674
+Ankle MRI (with contrast),Premier Radiology - Smyrna,"741 President Place
+Suite 100
+Smyrna, TN 37167",615-220-0674
+Ankle MRI (with contrast),Premier Radiology - Mt Juliet,"5002 Crossings Cir
+Suite 140
+Mount Juliet, TN 37122",615-773-7237
+Ankle MRI (with contrast),Premier Radiology - Murfreesboro,"1840 Medical Center Pkwy
+Suite 101
+Murfreesboro, TN 37129",615-896-1234
+Ankle MRI (with contrast),Premier Radiology - Clarksville,"980 Professional Park Dr
+Clarksville, TN 37040",931-436-9307
+Ankle MRI (with contrast),Pain Management Group - Cool Springs - Brentwood,"1642 Westgate Circle
+Suite 201
+Brentwood, TN 37027",615-941-8501
+Ankle MRI (with contrast),Tennessee Orthopaedic Alliance - St Thomas Midtown,"301 21st Ave N
+Nashville, TN 37203",615-329-6600
+Ankle MRI (with contrast),Tennessee Orthopaedic Alliance - Murfreesboro,"1800 Medical Center Pkwy
+Suite 200
+Murfreesboro, TN 37129",615-896-6800
+Ankle MRI (with contrast),Tennessee Orthopaedic Alliance - Clarksville,"141 Hillcrest Dr
+Clarksville, TN 37043",931-552-4340
+Ankle MRI (with contrast),Southern Sports Medicine Institute - Gallatin,"570 Harsville Pike
+Gallatin, TN 37066",615-452-3320
+Arm MRI (no contrast),Advanced Diagnostic Imaging,"3024 Business Park Cir
+Goodlettsville, TN 37072",615-239-2061
+Arm MRI (no contrast),Premier Medical Group Imaging Center,"490 Dunlop Ln
+Clarksville, TN 37040",931-245-8622
+Arm MRI (no contrast),Orthopedics & Sports Medicine Clinic,"144 Hospital Rd
+Winchester, TN 37398",931-967-5860
+Arm MRI (no contrast),The Imaging Center of Murfreesboro,"1001 N Highland Ave
+Murfreesboro, TN 37130",615-890-8999
+Arm MRI (no contrast),Outpatient Diagnostic Center of Nashville,"337 22nd Ave N
+Nashville, TN 37203",615-327-1500
+Arm MRI (no contrast),Tennessee Sports Medicine,"5003 Crossing Circle
+Suite 103
+Mount Juliet, TN 37122",615-758-1010
+Arm MRI (no contrast),Tennessee Sports Medicine,"1427A W Baddour Pkwy
+Lebanon, TN 37087",615-443-7700
+Arm MRI (no contrast),BioImaging of Huntsville,"528 Madison St SE
+Huntsville, AL 35801",256-533-3200
+Arm MRI (no contrast),Tennessee Orthopedics,"1616 W Main St
+Suite 100
+Lebanon, TN 37087",615-453-1273
+Arm MRI (no contrast),Tennessee Orthopaedic Alliance - Franklin,"4323 Carothers Pkwy
+Suite 600
+Franklin, TN 37067",615-454-9149
+Arm MRI (no contrast),Western Kentucky Orthopaedic and Neurosurgical Associates,"165 Natchez Trace Ave
+Suite 200
+Bowling Green, KY 42103",270-782-7800
+Arm MRI (no contrast),Heritage Medical Associates - Baptist Hospital,"222 22nd Ave N
+Nashville, TN 37203",615-284-2222
+Arm MRI (no contrast),Premier Orthopaedic Center,"394 Harding Place
+Suite 101
+Nashville, TN 37211",615-832-9966
+Arm MRI (no contrast),Graves Gilbert Clinic,"201 Park St
+Bowling Green, KY 42101",270-781-5111
+Arm MRI (no contrast),Imaging Center of the Howell Allen Clinic ,"2214 Elliston Place
+Suite 200
+Nashville, TN 37203",615-327-9543
 Arm MRI (no contrast),Premier Diagnostic Imaging - Cookeville,"315 N Washington Ave
 Suite 103
 Cookeville, TN 38501",931-528-1800
+Arm MRI (no contrast),Murfreesboro Medical Clinic & Surgicenter,"1272 Garrison Dr
+Murfreesboro, TN 37129",615-867-8110
+Arm MRI (no contrast),Elite Sports Medicine and Orthopaedic Center - Nashville,"2021 Church St
+Suite 200
+Nashville, TN 37203",615-284-2000
+Arm MRI (no contrast),Premier Radiology - Brentwood,"789 Old Hickory Blvd
+Brentwood, TN 37027",615-832-9551
+Arm MRI (no contrast),Premier Radiology - Nashville,"1800 Charlotte Ave
+Nashville, TN 37203",615-329-4840
+Arm MRI (no contrast),Premier Radiology - Belle Meade,"28 White Bridge Rd
+Suite 111
+Nashville, TN 37205",615-356-3999
+Arm MRI (no contrast),Premier Radiology - Cool Springs,"3310 Aspen Grove Dr
+Suite 101
+Franklin, TN 37067",615-771-0171
+Arm MRI (no contrast),Premier Radiology - Hermitage,"5045 Old Hickory Blvd
+Suite 100
+Hermitage, TN 37076",615-884-7674
+Arm MRI (no contrast),Premier Radiology - Smyrna,"741 President Place
+Suite 100
+Smyrna, TN 37167",615-220-0674
+Arm MRI (no contrast),Premier Radiology - Mt Juliet,"5002 Crossings Cir
+Suite 140
+Mount Juliet, TN 37122",615-773-7237
+Arm MRI (no contrast),Premier Radiology - Murfreesboro,"1840 Medical Center Pkwy
+Suite 101
+Murfreesboro, TN 37129",615-896-1234
+Arm MRI (no contrast),Premier Radiology - Clarksville,"980 Professional Park Dr
+Clarksville, TN 37040",931-436-9307
+Arm MRI (no contrast),Pain Management Group - Cool Springs - Brentwood,"1642 Westgate Circle
+Suite 201
+Brentwood, TN 37027",615-941-8501
+Arm MRI (no contrast),Tennessee Orthopaedic Alliance - St Thomas Midtown,"301 21st Ave N
+Nashville, TN 37203",615-329-6600
+Arm MRI (no contrast),Tennessee Orthopaedic Alliance - Murfreesboro,"1800 Medical Center Pkwy
+Suite 200
+Murfreesboro, TN 37129",615-896-6800
+Arm MRI (no contrast),Tennessee Orthopaedic Alliance - Clarksville,"141 Hillcrest Dr
+Clarksville, TN 37043",931-552-4340
+Arm MRI (no contrast),Southern Sports Medicine Institute - Gallatin,"570 Harsville Pike
+Gallatin, TN 37066",615-452-3320
+Arm MRI (with and without contrast),Advanced Diagnostic Imaging,"3024 Business Park Cir
+Goodlettsville, TN 37072",615-239-2061
+Arm MRI (with and without contrast),Premier Medical Group Imaging Center,"490 Dunlop Ln
+Clarksville, TN 37040",931-245-8622
+Arm MRI (with and without contrast),Orthopedics & Sports Medicine Clinic,"144 Hospital Rd
+Winchester, TN 37398",931-967-5860
+Arm MRI (with and without contrast),The Imaging Center of Murfreesboro,"1001 N Highland Ave
+Murfreesboro, TN 37130",615-890-8999
+Arm MRI (with and without contrast),Outpatient Diagnostic Center of Nashville,"337 22nd Ave N
+Nashville, TN 37203",615-327-1500
+Arm MRI (with and without contrast),Tennessee Sports Medicine,"5003 Crossing Circle
+Suite 103
+Mount Juliet, TN 37122",615-758-1010
+Arm MRI (with and without contrast),Tennessee Sports Medicine,"1427A W Baddour Pkwy
+Lebanon, TN 37087",615-443-7700
+Arm MRI (with and without contrast),BioImaging of Huntsville,"528 Madison St SE
+Huntsville, AL 35801",256-533-3200
+Arm MRI (with and without contrast),Tennessee Orthopedics,"1616 W Main St
+Suite 100
+Lebanon, TN 37087",615-453-1273
+Arm MRI (with and without contrast),Tennessee Orthopaedic Alliance - Franklin,"4323 Carothers Pkwy
+Suite 600
+Franklin, TN 37067",615-454-9149
+Arm MRI (with and without contrast),Western Kentucky Orthopaedic and Neurosurgical Associates,"165 Natchez Trace Ave
+Suite 200
+Bowling Green, KY 42103",270-782-7800
+Arm MRI (with and without contrast),Heritage Medical Associates - Baptist Hospital,"222 22nd Ave N
+Nashville, TN 37203",615-284-2222
+Arm MRI (with and without contrast),Premier Orthopaedic Center,"394 Harding Place
+Suite 101
+Nashville, TN 37211",615-832-9966
+Arm MRI (with and without contrast),Graves Gilbert Clinic,"201 Park St
+Bowling Green, KY 42101",270-781-5111
+Arm MRI (with and without contrast),Imaging Center of the Howell Allen Clinic ,"2214 Elliston Place
+Suite 200
+Nashville, TN 37203",615-327-9543
 Arm MRI (with and without contrast),Premier Diagnostic Imaging - Cookeville,"315 N Washington Ave
 Suite 103
 Cookeville, TN 38501",931-528-1800
+Arm MRI (with and without contrast),Murfreesboro Medical Clinic & Surgicenter,"1272 Garrison Dr
+Murfreesboro, TN 37129",615-867-8110
+Arm MRI (with and without contrast),Elite Sports Medicine and Orthopaedic Center - Nashville,"2021 Church St
+Suite 200
+Nashville, TN 37203",615-284-2000
+Arm MRI (with and without contrast),Premier Radiology - Brentwood,"789 Old Hickory Blvd
+Brentwood, TN 37027",615-832-9551
+Arm MRI (with and without contrast),Premier Radiology - Nashville,"1800 Charlotte Ave
+Nashville, TN 37203",615-329-4840
+Arm MRI (with and without contrast),Premier Radiology - Belle Meade,"28 White Bridge Rd
+Suite 111
+Nashville, TN 37205",615-356-3999
+Arm MRI (with and without contrast),Premier Radiology - Cool Springs,"3310 Aspen Grove Dr
+Suite 101
+Franklin, TN 37067",615-771-0171
+Arm MRI (with and without contrast),Premier Radiology - Hermitage,"5045 Old Hickory Blvd
+Suite 100
+Hermitage, TN 37076",615-884-7674
+Arm MRI (with and without contrast),Premier Radiology - Smyrna,"741 President Place
+Suite 100
+Smyrna, TN 37167",615-220-0674
+Arm MRI (with and without contrast),Premier Radiology - Mt Juliet,"5002 Crossings Cir
+Suite 140
+Mount Juliet, TN 37122",615-773-7237
+Arm MRI (with and without contrast),Premier Radiology - Murfreesboro,"1840 Medical Center Pkwy
+Suite 101
+Murfreesboro, TN 37129",615-896-1234
+Arm MRI (with and without contrast),Premier Radiology - Clarksville,"980 Professional Park Dr
+Clarksville, TN 37040",931-436-9307
+Arm MRI (with and without contrast),Pain Management Group - Cool Springs - Brentwood,"1642 Westgate Circle
+Suite 201
+Brentwood, TN 37027",615-941-8501
+Arm MRI (with and without contrast),Tennessee Orthopaedic Alliance - St Thomas Midtown,"301 21st Ave N
+Nashville, TN 37203",615-329-6600
+Arm MRI (with and without contrast),Tennessee Orthopaedic Alliance - Murfreesboro,"1800 Medical Center Pkwy
+Suite 200
+Murfreesboro, TN 37129",615-896-6800
+Arm MRI (with and without contrast),Tennessee Orthopaedic Alliance - Clarksville,"141 Hillcrest Dr
+Clarksville, TN 37043",931-552-4340
+Arm MRI (with and without contrast),Southern Sports Medicine Institute - Gallatin,"570 Harsville Pike
+Gallatin, TN 37066",615-452-3320
+Arm MRI (with contrast),Advanced Diagnostic Imaging,"3024 Business Park Cir
+Goodlettsville, TN 37072",615-239-2061
+Arm MRI (with contrast),Premier Medical Group Imaging Center,"490 Dunlop Ln
+Clarksville, TN 37040",931-245-8622
+Arm MRI (with contrast),Orthopedics & Sports Medicine Clinic,"144 Hospital Rd
+Winchester, TN 37398",931-967-5860
+Arm MRI (with contrast),The Imaging Center of Murfreesboro,"1001 N Highland Ave
+Murfreesboro, TN 37130",615-890-8999
+Arm MRI (with contrast),Outpatient Diagnostic Center of Nashville,"337 22nd Ave N
+Nashville, TN 37203",615-327-1500
+Arm MRI (with contrast),Tennessee Sports Medicine,"5003 Crossing Circle
+Suite 103
+Mount Juliet, TN 37122",615-758-1010
+Arm MRI (with contrast),Tennessee Sports Medicine,"1427A W Baddour Pkwy
+Lebanon, TN 37087",615-443-7700
+Arm MRI (with contrast),BioImaging of Huntsville,"528 Madison St SE
+Huntsville, AL 35801",256-533-3200
+Arm MRI (with contrast),Tennessee Orthopedics,"1616 W Main St
+Suite 100
+Lebanon, TN 37087",615-453-1273
+Arm MRI (with contrast),Tennessee Orthopaedic Alliance - Franklin,"4323 Carothers Pkwy
+Suite 600
+Franklin, TN 37067",615-454-9149
+Arm MRI (with contrast),Western Kentucky Orthopaedic and Neurosurgical Associates,"165 Natchez Trace Ave
+Suite 200
+Bowling Green, KY 42103",270-782-7800
+Arm MRI (with contrast),Heritage Medical Associates - Baptist Hospital,"222 22nd Ave N
+Nashville, TN 37203",615-284-2222
+Arm MRI (with contrast),Premier Orthopaedic Center,"394 Harding Place
+Suite 101
+Nashville, TN 37211",615-832-9966
+Arm MRI (with contrast),Graves Gilbert Clinic,"201 Park St
+Bowling Green, KY 42101",270-781-5111
+Arm MRI (with contrast),Imaging Center of the Howell Allen Clinic ,"2214 Elliston Place
+Suite 200
+Nashville, TN 37203",615-327-9543
 Arm MRI (with contrast),Premier Diagnostic Imaging - Cookeville,"315 N Washington Ave
 Suite 103
 Cookeville, TN 38501",931-528-1800
+Arm MRI (with contrast),Murfreesboro Medical Clinic & Surgicenter,"1272 Garrison Dr
+Murfreesboro, TN 37129",615-867-8110
+Arm MRI (with contrast),Elite Sports Medicine and Orthopaedic Center - Nashville,"2021 Church St
+Suite 200
+Nashville, TN 37203",615-284-2000
+Arm MRI (with contrast),Premier Radiology - Brentwood,"789 Old Hickory Blvd
+Brentwood, TN 37027",615-832-9551
+Arm MRI (with contrast),Premier Radiology - Nashville,"1800 Charlotte Ave
+Nashville, TN 37203",615-329-4840
+Arm MRI (with contrast),Premier Radiology - Belle Meade,"28 White Bridge Rd
+Suite 111
+Nashville, TN 37205",615-356-3999
+Arm MRI (with contrast),Premier Radiology - Cool Springs,"3310 Aspen Grove Dr
+Suite 101
+Franklin, TN 37067",615-771-0171
+Arm MRI (with contrast),Premier Radiology - Hermitage,"5045 Old Hickory Blvd
+Suite 100
+Hermitage, TN 37076",615-884-7674
+Arm MRI (with contrast),Premier Radiology - Smyrna,"741 President Place
+Suite 100
+Smyrna, TN 37167",615-220-0674
+Arm MRI (with contrast),Premier Radiology - Mt Juliet,"5002 Crossings Cir
+Suite 140
+Mount Juliet, TN 37122",615-773-7237
+Arm MRI (with contrast),Premier Radiology - Murfreesboro,"1840 Medical Center Pkwy
+Suite 101
+Murfreesboro, TN 37129",615-896-1234
+Arm MRI (with contrast),Premier Radiology - Clarksville,"980 Professional Park Dr
+Clarksville, TN 37040",931-436-9307
+Arm MRI (with contrast),Pain Management Group - Cool Springs - Brentwood,"1642 Westgate Circle
+Suite 201
+Brentwood, TN 37027",615-941-8501
+Arm MRI (with contrast),Tennessee Orthopaedic Alliance - St Thomas Midtown,"301 21st Ave N
+Nashville, TN 37203",615-329-6600
+Arm MRI (with contrast),Tennessee Orthopaedic Alliance - Murfreesboro,"1800 Medical Center Pkwy
+Suite 200
+Murfreesboro, TN 37129",615-896-6800
+Arm MRI (with contrast),Tennessee Orthopaedic Alliance - Clarksville,"141 Hillcrest Dr
+Clarksville, TN 37043",931-552-4340
+Arm MRI (with contrast),Southern Sports Medicine Institute - Gallatin,"570 Harsville Pike
+Gallatin, TN 37066",615-452-3320
+Brain MRI (no contrast),Advanced Diagnostic Imaging,"3024 Business Park Cir
+Goodlettsville, TN 37072",615-239-2061
+Brain MRI (no contrast),Premier Medical Group Imaging Center,"490 Dunlop Ln
+Clarksville, TN 37040",931-245-8622
+Brain MRI (no contrast),Outpatient Diagnostic Center of Nashville,"337 22nd Ave N
+Nashville, TN 37203",615-327-1500
+Brain MRI (no contrast),Imaging Center of the Howell Allen Clinic ,"2214 Elliston Place
+Suite 200
+Nashville, TN 37203",615-327-9543
+Brain MRI (no contrast),BioImaging of Huntsville,"528 Madison St SE
+Huntsville, AL 35801",256-533-3200
+Brain MRI (no contrast),The Imaging Center of Murfreesboro,"1001 N Highland Ave
+Murfreesboro, TN 37130",615-890-8999
+Brain MRI (no contrast),Heritage Medical Associates - Baptist Hospital,"222 22nd Ave N
+Nashville, TN 37203",615-284-2222
+Brain MRI (no contrast),Premier Radiology - Brentwood,"789 Old Hickory Blvd
+Brentwood, TN 37027",615-832-9551
+Brain MRI (no contrast),Premier Radiology - Nashville,"1800 Charlotte Ave
+Nashville, TN 37203",615-329-4840
+Brain MRI (no contrast),Premier Radiology - Belle Meade,"28 White Bridge Rd
+Suite 111
+Nashville, TN 37205",615-356-3999
+Brain MRI (no contrast),Premier Radiology - Cool Springs,"3310 Aspen Grove Dr
+Suite 101
+Franklin, TN 37067",615-771-0171
+Brain MRI (no contrast),Premier Radiology - Hermitage,"5045 Old Hickory Blvd
+Suite 100
+Hermitage, TN 37076",615-884-7674
+Brain MRI (no contrast),Premier Radiology - Smyrna,"741 President Place
+Suite 100
+Smyrna, TN 37167",615-220-0674
+Brain MRI (no contrast),Premier Radiology - Mt Juliet,"5002 Crossings Cir
+Suite 140
+Mount Juliet, TN 37122",615-773-7237
+Brain MRI (no contrast),Premier Radiology - Murfreesboro,"1840 Medical Center Pkwy
+Suite 101
+Murfreesboro, TN 37129",615-896-1234
+Brain MRI (no contrast),Premier Radiology - Clarksville,"980 Professional Park Dr
+Clarksville, TN 37040",931-436-9307
+Brain MRI (no contrast),Murfreesboro Medical Clinic & Surgicenter,"1272 Garrison Dr
+Murfreesboro, TN 37129",615-867-8110
 Brain MRI (no contrast),Premier Diagnostic Imaging - Cookeville,"315 N Washington Ave
 Suite 103
 Cookeville, TN 38501",931-528-1800
-Brain MRI (with and without contrast),Premier Diagnostic Imaging - Cookeville,"315 N Washington Ave
-Suite 103
-Cookeville, TN 38501",931-528-1800
-Brain MRI (with contrast),Premier Diagnostic Imaging - Cookeville,"315 N Washington Ave
-Suite 103
-Cookeville, TN 38501",931-528-1800
-Chest MRI (no contrast),Premier Diagnostic Imaging - Cookeville,"315 N Washington Ave
-Suite 103
-Cookeville, TN 38501",931-528-1800
-Chest MRI (with and without contrast),Premier Diagnostic Imaging - Cookeville,"315 N Washington Ave
-Suite 103
-Cookeville, TN 38501",931-528-1800
-Chest MRI (with contrast),Premier Diagnostic Imaging - Cookeville,"315 N Washington Ave
-Suite 103
-Cookeville, TN 38501",931-528-1800
-Elbow MRI (no contrast),Premier Diagnostic Imaging - Cookeville,"315 N Washington Ave
-Suite 103
-Cookeville, TN 38501",931-528-1800
-Elbow MRI (with and without contrast),Premier Diagnostic Imaging - Cookeville,"315 N Washington Ave
-Suite 103
-Cookeville, TN 38501",931-528-1800
-Elbow MRI (with contrast),Premier Diagnostic Imaging - Cookeville,"315 N Washington Ave
-Suite 103
-Cookeville, TN 38501",931-528-1800
-Face MRI (no contrast),Premier Diagnostic Imaging - Cookeville,"315 N Washington Ave
-Suite 103
-Cookeville, TN 38501",931-528-1800
-Face MRI (with and without contrast),Premier Diagnostic Imaging - Cookeville,"315 N Washington Ave
-Suite 103
-Cookeville, TN 38501",931-528-1800
-Face MRI (with contrast),Premier Diagnostic Imaging - Cookeville,"315 N Washington Ave
-Suite 103
-Cookeville, TN 38501",931-528-1800
-Hip MRI (no contrast),Premier Diagnostic Imaging - Cookeville,"315 N Washington Ave
-Suite 103
-Cookeville, TN 38501",931-528-1800
-Hip MRI (with and without contrast),Premier Diagnostic Imaging - Cookeville,"315 N Washington Ave
-Suite 103
-Cookeville, TN 38501",931-528-1800
-Hip MRI (with contrast),Premier Diagnostic Imaging - Cookeville,"315 N Washington Ave
-Suite 103
-Cookeville, TN 38501",931-528-1800
-Jaw MRI (no contrast),Premier Diagnostic Imaging - Cookeville,"315 N Washington Ave
-Suite 103
-Cookeville, TN 38501",931-528-1800
-Knee MRI (no contrast),Premier Diagnostic Imaging - Cookeville,"315 N Washington Ave
-Suite 103
-Cookeville, TN 38501",931-528-1800
-Knee MRI (with and without contrast),Premier Diagnostic Imaging - Cookeville,"315 N Washington Ave
-Suite 103
-Cookeville, TN 38501",931-528-1800
-Knee MRI (with contrast),Premier Diagnostic Imaging - Cookeville,"315 N Washington Ave
-Suite 103
-Cookeville, TN 38501",931-528-1800
-Leg MRI (no contrast),Premier Diagnostic Imaging - Cookeville,"315 N Washington Ave
-Suite 103
-Cookeville, TN 38501",931-528-1800
-Leg MRI (with and without contrast),Premier Diagnostic Imaging - Cookeville,"315 N Washington Ave
-Suite 103
-Cookeville, TN 38501",931-528-1800
-Leg MRI (with contrast),Premier Diagnostic Imaging - Cookeville,"315 N Washington Ave
-Suite 103
-Cookeville, TN 38501",931-528-1800
-Pelvis MRI (no contrast),Premier Diagnostic Imaging - Cookeville,"315 N Washington Ave
-Suite 103
-Cookeville, TN 38501",931-528-1800
-Pelvis MRI (with and without contrast),Premier Diagnostic Imaging - Cookeville,"315 N Washington Ave
-Suite 103
-Cookeville, TN 38501",931-528-1800
-Pelvis MRI (with contrast),Premier Diagnostic Imaging - Cookeville,"315 N Washington Ave
-Suite 103
-Cookeville, TN 38501",931-528-1800
-Shoulder MRI (no contrast),Premier Diagnostic Imaging - Cookeville,"315 N Washington Ave
-Suite 103
-Cookeville, TN 38501",931-528-1800
-Shoulder MRI (with and without contrast),Premier Diagnostic Imaging - Cookeville,"315 N Washington Ave
-Suite 103
-Cookeville, TN 38501",931-528-1800
-Shoulder MRI (with contrast),Premier Diagnostic Imaging - Cookeville,"315 N Washington Ave
-Suite 103
-Cookeville, TN 38501",931-528-1800
-Spine MRI (no contrast),Premier Diagnostic Imaging - Cookeville,"315 N Washington Ave
-Suite 103
-Cookeville, TN 38501",931-528-1800
-Spine MRI (with and without contrast),Premier Diagnostic Imaging - Cookeville,"315 N Washington Ave
-Suite 103
-Cookeville, TN 38501",931-528-1800
-Spine MRI (with contrast),Premier Diagnostic Imaging - Cookeville,"315 N Washington Ave
-Suite 103
-Cookeville, TN 38501",931-528-1800
-Wrist MRI (no contrast),Premier Diagnostic Imaging - Cookeville,"315 N Washington Ave
-Suite 103
-Cookeville, TN 38501",931-528-1800
-Wrist MRI (with and without contrast),Premier Diagnostic Imaging - Cookeville,"315 N Washington Ave
-Suite 103
-Cookeville, TN 38501",931-528-1800
-Wrist MRI (with contrast),Premier Diagnostic Imaging - Cookeville,"315 N Washington Ave
-Suite 103
-Cookeville, TN 38501",931-528-1800
+Brain MRI (no contrast),Graves Gilbert Clinic,"201 Park St
+Bowling Green, KY 42101",270-781-5111
