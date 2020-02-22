@@ -1,4 +1,4 @@
-# bb_interview_scrape
+# bb_scrape
 
 ## requirements
 requests
